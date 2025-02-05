@@ -1,0 +1,46 @@
+
+graph TD
+  %% Core Node
+  A[GenAI Architecture] -->|Foundation| B{{Data Strategy}}
+  A -->|Core Decision| C((Model Selection))
+  A -->|Scalability & Compute| D[/Infrastructure\]
+  A -->|Deployment & Access| E>Integration & Deployment]
+  A -->|Regulations & Risk| F{Security & Governance}
+  A -->|Business Factors| G((Business Considerations))
+
+  %% Data Strategy
+  B --> B1[Data Collection & Processing]
+  B --> B2[Privacy & Compliance]
+  B1 --> B3[Data Integration & Pipelines]
+  B3 --> B4[(Storage & ETL)]
+
+  %% Model Selection with Intersections
+  C -->|Approach| C1((Open-Source vs Proprietary))
+  C -->|Hosting| C2((SaaS vs Self-Hosted))
+  C1 -->|Flexibility| C3{{Fine-tuning & Optimization}}
+  C3 -->|Performance| C4[Context Window & Scaling]
+  C4 -->|Trade-offs| C5[(Cost & Inference Time)]
+  
+  %% Infrastructure with Different Patterns
+  D -.-> D1[/Cloud | On-Prem | Hybrid\]
+  D1 --> D2[(Compute Resources: GPU/TPU)]
+  D2 -->|Modular| D3{{Scalable Architecture}}
+  D3 --> D4[(Containerization & Microservices)]
+  
+  %% Integration & Deployment - Complex Flow
+  E --> E1[/API & Middleware\]
+  E1 -->|Automation| E2[[CI/CD Pipelines]]
+  E2 -.->|Compatibility| E3[Legacy System Integration]
+  E3 -->|Access Points| E4[(Model Serving & Inference)]
+  
+  %% Security & Governance - Cross Linking
+  F -->|Control| F1[[Access & Encryption]]
+  F1 --> F2{Regulatory Compliance}
+  F2 -->|AI Ethics| F3[Responsible AI Policies]
+  F3 -.->|Audit & Logs| F4[(Monitoring & Risk Mitigation)]
+  
+  %% Business Considerations - Intersecting Components
+  G -->|Complexity| G1[/Scalability & Cost\]
+  G -->|Costs| G2((Compute, API Calls, Storage))
+  G1 -.->|Optimization| G3[(Vendor Lock-In Risks)]
+  G3 -->|Future Proof| G4{{Migration & Model Evolution}}
