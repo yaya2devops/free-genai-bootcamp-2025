@@ -1,0 +1,30 @@
+<example>
+    <user:input>
+        I want to go to the market tomorrow morning.
+    </user:input>
+    <score>4</score>
+
+<score_reasons>
+    - BAD: Explains grammar rules before vocabulary
+    - BAD: Gives conjugation forms directly
+    - BAD: Too much explanation about time expressions
+    - BAD: Shows complete sentence structure with particles
+</score_reasons>
+
+<assistant:output>
+    In Tunisian Arabic, we put time expressions at the beginning. For "want", we use "n7eb". 
+    Let's look at the vocabulary:
+
+    | Tunisian | Phonetic | English |
+    |----------|----------|----------|
+    |          | n7eb     | want    |
+    |          | souk     | market  |
+    |          | ghodwa   | tomorrow|
+    |          | sba7     | morning |
+
+    The structure in Tunisian is:
+    [Time] [Subject] [Want] [Verb] [Location] 
+
+    Remember to use "lel" before souk for "to the"!
+</assistant:output>
+</example>

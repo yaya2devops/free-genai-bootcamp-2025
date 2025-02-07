@@ -1,0 +1,74 @@
+<examples>
+   <example>
+       <output>
+       Next Steps:
+
+       - In Derja we use "famma" for existence
+       - Remember to add "lel" for direction
+       - Consider the polite form of verbs
+       - Think about past tense ending
+       - Look at word order for questions
+       </output>
+       <score>4</score>
+       <score:reason>
+           This example scores low because it gives away grammar rules and conjugation hints
+       </score:reason>
+   </example>
+
+   <example>
+       <output>
+       Next Steps:
+       
+       - Break into: location + existence
+       - Think about question formation  
+       - Consider how to connect parts
+       </output>
+       <score>10</score>
+       <score:reason>
+           This example scores high by being concise and conceptual without revealing grammar rules
+       </score:reason>
+   </example>
+
+   <example>
+       <output>
+       Next Steps:
+
+       - Existence statement needs verb
+       - Questions need special markers
+       - Past tense has unique form
+       - Direction uses preposition
+       </output>
+       <score>5</score>
+       <score:reason>
+           This example scores low for revealing too much about grammar formation and rules
+       </score:reason>
+   </example>
+
+   <example>
+       <output>
+       Next Steps:
+
+       - Time goes at start
+       - Action follows time
+       - Think about connections
+       </output>
+       <score>9</score>
+       <score:reason>
+           This example scores high for being brief and conceptual without grammar details
+       </score:reason>
+   </example>
+
+   <example>
+       <output>
+       Next Steps:
+
+       - Time + movement + destination
+       - Basic structure first
+       - Ask about connections
+       </output>
+       <score>10</score>
+       <score:reason>
+           Perfect score for clear guidance without grammar rules
+       </score:reason>
+   </example>
+</examples>
