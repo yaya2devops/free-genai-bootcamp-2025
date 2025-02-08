@@ -1,0 +1,45 @@
+<examples>
+    <example>
+        <output>
+        Next Steps:
+
+        - Remember measure words with nouns
+        - Consider word order rules
+        - Use 的 for possession
+        - Add 了 for past tense
+        - Think about time words placement
+        </output>
+        <score>4</score>
+        <score:reason>
+            This example scores low because it reveals grammar rules and specific particles
+        </score:reason>
+    </example>
+
+    <example>
+        <output>
+        Next Steps:
+        
+        - Time expression first
+        - Action follows time
+        - Think about connections
+        </output>
+        <score>10</score>
+        <score:reason>
+            This example scores high by being concise and conceptual without revealing grammar rules
+        </score:reason>
+    </example>
+
+    <example>
+        <output>
+        Next Steps:
+
+        - Consider character components
+        - Think about tone combinations
+        - Look at word order
+        </output>
+        <score>9</score>
+        <score:reason>
+            This example scores well by focusing on essential concepts without revealing specifics
+        </score:reason>
+    </example>
+</examples>

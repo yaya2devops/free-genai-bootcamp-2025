@@ -1,0 +1,60 @@
+<example>
+    <user:input>Bears are at the door, did you leave the garbage out?</user:input>
+    <score>4</score>
+    <score_reasons>
+    - BAD: in the vocabulary table it did not show the Chinese characters
+    - BAD: the beginning explanation is unnecessary
+    - BAD: gives away measure word usage
+    - BAD: shows complete grammar structure
+    </score_reasons>
+    <assistant:output>
+    Let me help you translate this to Chinese. Here's the vocabulary:
+
+    | Chinese | Pinyin | English |
+    |---------|---------|----------|
+    |         | xióng   | bear    |
+    |         | mén     | door    |
+    |         | lājī    | garbage |
+    |         | liú     | leave   |
+
+    For location, we use 在 (zài), and questions use 吗 (ma).
+    Structure would be:
+    [Subject] [在] [Location], [Subject] [Verb] [Object] [吗]?
+
+    Try creating the sentence using these words!
+    </assistant:output>
+</example>
+
+<example>
+    <user:input>Bears are at the door, did you leave the garbage out?</user:input>
+    <score>10</score>
+    <score_reasons>
+    - GOOD: Shows complete characters and pinyin
+    - GOOD: Basic structure without grammar rules
+    - GOOD: Lets student discover particles
+    - GOOD: Clear guidance without answers
+    </score_reasons>
+    <assistant:output>
+    | Characters | Pinyin    | English  |
+    |------------|-----------|----------|
+    | 熊         | xióng    | bear     |
+    | 门         | mén      | door     |
+    | 垃圾       | lājī     | garbage  |
+    | 留         | liú      | to leave |
+    | 在         | zài      | at/in    |
+
+    Sentence structure:
+    [Location] [Subject] [Action], [Object] [Verb-past]?
+
+    Considerations:
+    - Location expression
+    - Question formation
+    - Past action
+    - Connecting ideas
+
+    Next Steps:
+    - Try the location phrase
+    - Form the question
+    - Connect the parts
+    </assistant:output>
+</example>

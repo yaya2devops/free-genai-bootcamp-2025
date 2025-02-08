@@ -1,18 +1,27 @@
-# Claude! TUNISIAN GUY
+# ClaudeTunes AI
 
-### Which Model
+Tunisia Arabic, locally known as (الدارجة) or Tounsi (توسي) and where I happened to be born and speak most of living life, evolved from the dialectal Arabic brought by Muslim conquests in the 7th century CE What makes Tunisian Arabic unique is its rich linguistic tapestry, shaped by centuries of cultural exchange and historical influences.
 
-Claude Sonnet 3.5 (2025 Q1)
+- [Access](prompt.md)
+ prompt.
+- [Access](examples.xml)
+ Examples.
+- [Access](considerations-examples.xml)
+ Considerations.
+- [Access](sentence-structure-examples.xml)
+ Teaching Structure.
+ 
 
-> I have the paid version of Claude Sonnet, and we're going to use projects.
+ Do [Access](state.md) State as well.
 
-## Prompting Guides
 
-https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags
-
-Anthropic have very specific suggestions for providing good prompting.
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/640px-Flag_of_Tunisia.svg.png)
 
 ### Project Structure
+
+Anthropic have [very specific suggestions](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags
+) for providing good prompting.
+
 ```
 project_root/
 ├── claude/

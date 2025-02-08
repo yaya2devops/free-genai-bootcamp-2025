@@ -1,10 +1,6 @@
-# Claude!  
+# Claude State  Management
 
-This is State Management!
-
-## State Flow Architecture
-
-### Core States Definition
+ Following is Core States Definition: 
 ```mermaid
 graph TD
     A[Setup] --> B[Attempt]
