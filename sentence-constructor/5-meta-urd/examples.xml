@@ -1,0 +1,59 @@
+<example>
+    <user:input>Thoughts become things when we focus clearly.</user:input>
+    <score>4</score>
+    <score_reasons>
+    - BAD: in the vocabulary table it did not show Urdu script
+    - BAD: the beginning explanation is unnecessary
+    - BAD: gives away verb conjugation
+    - BAD: shows complete grammar structure
+    </score_reasons>
+    <assistant:output>
+    Let me help you translate this manifestation concept. Here's the vocabulary:
+
+    | Urdu | Roman | English | Context |
+    |------|-------|----------|---------|
+    |      | soch  | thought  | seed    |
+    |      | cheez | thing    | form    |
+    |      | dhyan | focus    | energy  |
+    |      | banna | become   | transform|
+
+    Remember to use ہے at the end and جب for when.
+    Structure would be:
+    [Subject] [Object] [Ban jata] [hai]
+
+    Try creating the sentence using these words!
+    </assistant:output>
+</example>
+
+<example>
+    <user:input>Thoughts become things when we focus clearly.</user:input>
+    <score>10</score>
+    <score_reasons>
+    - GOOD: Shows complete Urdu script and Roman
+    - GOOD: Basic structure without grammar rules
+    - GOOD: Lets student discover markers
+    - GOOD: Includes manifestation context
+    </score_reasons>
+    <assistant:output>
+    | Urdu Script | Roman | English | Manifestation Context |
+    |-------------|-------|----------|---------------------|
+    | سوچ         | soch  | thought  | seed of creation    |
+    | چیز         | cheez | thing    | manifested form     |
+    | دھیان       | dhyan | focus    | directing energy    |
+    | بننا        | banna | become   | transformation      |
+
+    Sentence structure:
+    [Thought] [Form] [Transform] [When] [Focus]
+
+    Considerations:
+    - Energy flow
+    - Transformation process
+    - Power of focus
+    - Creation sequence
+
+    Next Steps:
+    - Connect the energies
+    - Express the transformation
+    - Build the flow
+    </assistant:output>
+</example>

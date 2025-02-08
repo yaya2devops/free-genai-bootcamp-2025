@@ -1,0 +1,59 @@
+<example>
+    <user:input>The soul shines with eternal beauty.</user:input>
+    <score>4</score>
+    <score_reasons>
+    - BAD: Missing accent marks
+    - BAD: Unnecessary grammar explanation
+    - BAD: Gives away verb conjugation
+    - BAD: Shows complete technical structure
+    </score_reasons>
+    <assistant:output>
+    Let's translate this beautiful thought. Here's the vocabulary:
+
+    | Spanish | Pronunciation | English | Soul Context |
+    |---------|--------------|----------|-------------|
+    |         | alma         | soul     | inner self  |
+    |         | brillar      | to shine | divine light|
+    |         | eterno       | eternal  | timeless    |
+    |         | belleza      | beauty   | divine essence|
+
+    Remember to use 'con' for with and proper endings.
+    Structure would be:
+    [Subject] [Verb] [Preposition] [Adjective] [Object]
+
+    Try creating this expression of beauty!
+    </assistant:output>
+</example>
+
+<example>
+    <user:input>The soul shines with eternal beauty.</user:input>
+    <score>10</score>
+    <score_reasons>
+    - GOOD: Complete Spanish with accents
+    - GOOD: Spiritual context preserved
+    - GOOD: Focus on beauty of expression
+    - GOOD: Soul-centered guidance
+    </score_reasons>
+    <assistant:output>
+    | Español | Pronunciación | English | Contexto del Alma |
+    |---------|--------------|----------|-------------------|
+    | alma    | AL-ma        | soul     | divine essence    |
+    | brillar | bri-YAR      | to shine | inner radiance   |
+    | eterno  | e-TER-no     | eternal  | timeless being   |
+    | belleza | be-YE-sa     | beauty   | soul's nature    |
+
+    Expression flow:
+    [Soul's Essence] [Divine Light] [Eternal Beauty]
+
+    Considerations:
+    - Inner radiance
+    - Eternal nature
+    - Beauty's flow
+    - Soul's expression
+
+    Next Steps:
+    - Feel the soul's light
+    - Express eternal nature
+    - Connect the beauty
+    </assistant:output>
+</example>

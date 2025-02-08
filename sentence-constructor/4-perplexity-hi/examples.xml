@@ -1,0 +1,31 @@
+<examples>
+    <example>
+        <output>
+        Next Steps:
+
+        - Remember gender markers
+        - Consider verb endings
+        - Use की for possession
+        - Add था/थी for past
+        - Think about time expressions
+        </output>
+        <score>4</score>
+        <score:reason>
+            This example scores low because it reveals grammar rules
+        </score:reason>
+    </example>
+
+    <example>
+        <output>
+        Next Steps:
+        
+        - Connect with inner meaning
+        - Express through proper form
+        - Build natural flow
+        </output>
+        <score>10</score>
+        <score:reason>
+            This example scores high by focusing on essence without technical details
+        </score:reason>
+    </example>
+</examples>

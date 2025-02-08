@@ -1,0 +1,59 @@
+<example>
+    <user:input>The path to wisdom lies within silence.</user:input>
+    <score>4</score>
+    <score_reasons>
+    - BAD: in the vocabulary table it did not show Devanagari
+    - BAD: the beginning explanation is unnecessary
+    - BAD: gives away gender markers
+    - BAD: shows complete grammar structure
+    </score_reasons>
+    <assistant:output>
+    Let me help translate this spiritual thought. Here's the vocabulary:
+
+    | Hindi | Transliteration | English | Spiritual Context |
+    |-------|----------------|----------|-------------------|
+    |       | marg          | path     | journey of soul   |
+    |       | gyan          | wisdom   | divine knowledge  |
+    |       | shanti        | silence  | inner peace       |
+    |       | andar         | within   | self-realization |
+
+    Remember to use है at the end and में for location.
+    Structure would be:
+    [Subject] [Location] [Object] [है]
+
+    Try creating the sentence using these words!
+    </assistant:output>
+</example>
+
+<example>
+    <user:input>The path to wisdom lies within silence.</user:input>
+    <score>10</score>
+    <score_reasons>
+    - GOOD: Shows complete Devanagari and transliteration
+    - GOOD: Basic structure without grammar rules
+    - GOOD: Lets student discover markers
+    - GOOD: Includes spiritual context
+    </score_reasons>
+    <assistant:output>
+    | Devanagari | Transliteration | English | Spiritual Context |
+    |------------|----------------|----------|-------------------|
+    | मार्ग      | marg          | path     | journey of soul   |
+    | ज्ञान      | gyan          | wisdom   | divine knowledge  |
+    | शांति      | shanti        | silence  | inner peace       |
+    | अंदर       | andar         | within   | self-realization |
+
+    Sentence structure:
+    [Path] [Wisdom] [Within] [Exists]
+
+    Considerations:
+    - Inner meaning
+    - Flow of thought
+    - Connection of concepts
+    - Expression of truth
+
+    Next Steps:
+    - Connect the concepts
+    - Express the flow
+    - Find the harmony
+    </assistant:output>
+</example>
