@@ -4,7 +4,14 @@ The Gen AI architectural approach should be tailored to match your project's sco
 
 We'll kick-start this with the following conceptual diagram I created and give you the space to take it forward. 
 
-![yahConceptual](make/yahconceptual.svg)
+
+It was generated when I asked LLM to create it for me in mermaid using this prompt:
+
+```
+Design a high-level GenAI architecture to help stakeholders understand workloads, technical paths, and adoption challenges. The architecture consists of key components: Data Strategy, ensuring data collection, preprocessing, privacy, and compliance; Model Selection, deciding between open-source vs. proprietary, SaaS vs. self-hosted, optimizing for efficiency and scalability; Infrastructure, leveraging cloud, on-premise, or hybrid setups with modular, flexible design for adaptability; Integration & Deployment, developing APIs, middleware, and CI/CD pipelines for seamless connectivity and updates; Security & Governance, enforcing access control, encryption, compliance, and ethical AI policies; and Business Considerations, addressing complexity, cost drivers (compute, storage, API calls), scalability, and vendor lock-in risks. This architecture provides a structured approach to informed decision-making, guiding stakeholders through infrastructure choices and system dependencies.
+```
+
+![yahConceptual](make/yahConceptual.svg)
 
 You'll also learn why this is the best diagram to start with. 
 
