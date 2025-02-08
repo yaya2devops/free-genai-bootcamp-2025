@@ -30,3 +30,11 @@ Under this, you will find the legacy architecture provided for:
 You will also find the conceptual design I created for this bootcamp, which is available on the main page or as a standalone resource.
 
 Additionally, legacy architectures are provided in three formats: **Visio, VisioX, and SVG**, all of which can be accessed through the links above.
+
+<br>
+
+<div style="text-align: center;">
+  <a href="https://docs.google.com/document/d/1vH1b-7CYJHNqYN-_xs-Gli03OhDmpP9y5o4HOrw-geM/edit?usp=sharing">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Google_Docs_2020_Logo.svg/1489px-Google_Docs_2020_Logo.svg.png" width="200" />
+  </a>
+</div>

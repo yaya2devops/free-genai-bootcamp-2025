@@ -1,5 +1,8 @@
-# GenAI Bootcamp 2025
+# Welcome to GenAI Bootcamp!
 
-Welcome to the 3rd Bootcamp I joined after being [a dropout of the 1st](https://learn.awsboot.com).
+This one is my third bootcamp at ExamPro.<br>
+I was glad to be part of [this here](https://learn.awsboot.com) and [the other](https://terraformer.awsboot.com/)! 
 
-To get it into motion, start from [this devex point.](devex/README.md)
+![](n3.png)
+
+> To get it into this ²⁵motion, start from [our DevEx point!](devex/README.md)
