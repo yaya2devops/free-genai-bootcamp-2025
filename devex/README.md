@@ -38,3 +38,7 @@ Additionally, legacy architectures are provided in three formats: **Visio, Visio
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Google_Docs_2020_Logo.svg/1489px-Google_Docs_2020_Logo.svg.png" width="200" />
   </a>
 </div>
+
+
+One last note here,
+> [Perseverance in action](retain/README.md) is key and if you see GitPod you click!
