@@ -1,0 +1,402 @@
+timestamp,message
+1740836097777,"Pulling model 'deepseek-r1:8b' again...
+"
+1740836097794,"[GIN] 2025/03/01 - 13:34:57 | 200 |      30.188µs |       127.0.0.1 | HEAD     ""/""
+"
+1740836097953,"[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[GIN] 2025/03/01 - 13:34:57 | 200 |  157.977379ms |       127.0.0.1 | POST     ""/api/pull""
+"
+1740836097953,"[?2026h[?25l[1Gpulling manifest [K
+"
+1740836097953,"pulling 6340dc3229b0... 100% ▕████████████████▏ 4.9 GB                         [K
+"
+1740836097953,"pulling 369ca498f347... 100% ▕████████████████▏  387 B                         [K
+"
+1740836097953,"pulling 6e4c38e1172f... 100% ▕████████████████▏ 1.1 KB                         [K
+"
+1740836097953,"pulling f4d24e9138dd... 100% ▕████████████████▏  148 B                         [K
+"
+1740836097953,"pulling 0cb05c6e4e02... 100% ▕████████████████▏  487 B                         [K
+"
+1740836097953,"verifying sha256 digest [K
+"
+1740836097953,"writing manifest [K
+"
+1740836097953,"success [K[?25h[?2026l
+"
+1740836097954,"Waiting for model to load...
+"
+1740836100032,"time=2025-03-01T13:35:00.032Z level=INFO source=server.go:97 msg=""system memory"" total=""3.1 GiB"" free=""2.9 GiB"" free_swap=""0 B""
+"
+1740836100032,"time=2025-03-01T13:35:00.032Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.key_length default=128
+"
+1740836100032,"time=2025-03-01T13:35:00.032Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.value_length default=128
+"
+1740836100033,"time=2025-03-01T13:35:00.033Z level=WARN source=server.go:125 msg=""model request too large for system"" requested=""6.3 GiB"" available=3163873280 total=""3.1 GiB"" free=""2.9 GiB"" swap=""0 B""
+"
+1740836100033,"time=2025-03-01T13:35:00.033Z level=INFO source=sched.go:429 msg=""NewLlamaServer failed"" model=/tmp/.ollama/models/blobs/sha256-6340dc3229b0d08ea9cc49b75d4098702983e17b4c096d57afbbf2ffc813f2be error=""model requires more system memory (6.3 GiB) than is available (2.9 GiB)""
+"
+1740836100033,"[GIN] 2025/03/01 - 13:35:00 | 500 |   69.483553ms |       127.0.0.1 | POST     ""/api/generate""
+"
+1740836100035,"Raw API Response: '{""error"":""model requires more system memory (6.3 GiB) than is available (2.9 GiB)""}'
+"
+1740836100067,"Error: Failed to parse JSON response! Retrying model pull...
+"
+1740836100067,"Pulling model 'deepseek-r1:8b' again...
+"
+1740836100085,"[GIN] 2025/03/01 - 13:35:00 | 200 |      30.629µs |       127.0.0.1 | HEAD     ""/""
+"
+1740836100288,"[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[GIN] 2025/03/01 - 13:35:00 | 200 |  201.730631ms |       127.0.0.1 | POST     ""/api/pull""
+"
+1740836100288,"[?2026h[?25l[1Gpulling manifest [K
+"
+1740836100288,"pulling 6340dc3229b0... 100% ▕████████████████▏ 4.9 GB                         [K
+"
+1740836100288,"pulling 369ca498f347... 100% ▕████████████████▏  387 B                         [K
+"
+1740836100288,"pulling 6e4c38e1172f... 100% ▕████████████████▏ 1.1 KB                         [K
+"
+1740836100288,"pulling f4d24e9138dd... 100% ▕████████████████▏  148 B                         [K
+"
+1740836100288,"pulling 0cb05c6e4e02... 100% ▕████████████████▏  487 B                         [K
+"
+1740836100288,"verifying sha256 digest [K
+"
+1740836100288,"writing manifest [K
+"
+1740836100288,"success [K[?25h[?2026l
+"
+1740836100289,"Waiting for model to load...
+"
+1740836102367,"time=2025-03-01T13:35:02.367Z level=INFO source=server.go:97 msg=""system memory"" total=""3.1 GiB"" free=""2.9 GiB"" free_swap=""0 B""
+"
+1740836102367,"time=2025-03-01T13:35:02.367Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.key_length default=128
+"
+1740836102367,"time=2025-03-01T13:35:02.367Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.value_length default=128
+"
+1740836102368,"time=2025-03-01T13:35:02.368Z level=WARN source=server.go:125 msg=""model request too large for system"" requested=""6.3 GiB"" available=3164139520 total=""3.1 GiB"" free=""2.9 GiB"" swap=""0 B""
+"
+1740836102368,"time=2025-03-01T13:35:02.368Z level=INFO source=sched.go:429 msg=""NewLlamaServer failed"" model=/tmp/.ollama/models/blobs/sha256-6340dc3229b0d08ea9cc49b75d4098702983e17b4c096d57afbbf2ffc813f2be error=""model requires more system memory (6.3 GiB) than is available (2.9 GiB)""
+"
+1740836102368,"[GIN] 2025/03/01 - 13:35:02 | 500 |   68.037807ms |       127.0.0.1 | POST     ""/api/generate""
+"
+1740836102369,"Raw API Response: '{""error"":""model requires more system memory (6.3 GiB) than is available (2.9 GiB)""}'
+"
+1740836102402,"Error: Failed to parse JSON response! Retrying model pull...
+"
+1740836102402,"Pulling model 'deepseek-r1:8b' again...
+"
+1740836102419,"[GIN] 2025/03/01 - 13:35:02 | 200 |      31.885µs |       127.0.0.1 | HEAD     ""/""
+"
+1740836102635,"[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[GIN] 2025/03/01 - 13:35:02 | 200 |  215.890643ms |       127.0.0.1 | POST     ""/api/pull""
+"
+1740836102636,"[?2026h[?25l[1Gpulling manifest [K
+"
+1740836102636,"pulling 6340dc3229b0... 100% ▕████████████████▏ 4.9 GB                         [K
+"
+1740836102636,"pulling 369ca498f347... 100% ▕████████████████▏  387 B                         [K
+"
+1740836102636,"pulling 6e4c38e1172f... 100% ▕████████████████▏ 1.1 KB                         [K
+"
+1740836102636,"pulling f4d24e9138dd... 100% ▕████████████████▏  148 B                         [K
+"
+1740836102636,"pulling 0cb05c6e4e02... 100% ▕████████████████▏  487 B                         [K
+"
+1740836102636,"verifying sha256 digest [K
+"
+1740836102636,"writing manifest [K
+"
+1740836102636,"success [K[?25h[?2026l
+"
+1740836102637,"Waiting for model to load...
+"
+1740836104744,"time=2025-03-01T13:35:04.743Z level=INFO source=server.go:97 msg=""system memory"" total=""3.1 GiB"" free=""2.9 GiB"" free_swap=""0 B""
+"
+1740836104744,"time=2025-03-01T13:35:04.744Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.key_length default=128
+"
+1740836104744,"time=2025-03-01T13:35:04.744Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.value_length default=128
+"
+1740836104744,"time=2025-03-01T13:35:04.744Z level=WARN source=server.go:125 msg=""model request too large for system"" requested=""6.3 GiB"" available=3163107328 total=""3.1 GiB"" free=""2.9 GiB"" swap=""0 B""
+"
+1740836104744,"time=2025-03-01T13:35:04.744Z level=INFO source=sched.go:429 msg=""NewLlamaServer failed"" model=/tmp/.ollama/models/blobs/sha256-6340dc3229b0d08ea9cc49b75d4098702983e17b4c096d57afbbf2ffc813f2be error=""model requires more system memory (6.3 GiB) than is available (2.9 GiB)""
+"
+1740836104745,"[GIN] 2025/03/01 - 13:35:04 | 500 |   98.773257ms |       127.0.0.1 | POST     ""/api/generate""
+"
+1740836104746,"Raw API Response: '{""error"":""model requires more system memory (6.3 GiB) than is available (2.9 GiB)""}'
+"
+1740836104781,"Error: Failed to parse JSON response! Retrying model pull...
+"
+1740836104781,"Pulling model 'deepseek-r1:8b' again...
+"
+1740836104798,"[GIN] 2025/03/01 - 13:35:04 | 200 |      31.476µs |       127.0.0.1 | HEAD     ""/""
+"
+1740836104944,"[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[GIN] 2025/03/01 - 13:35:04 | 200 |  145.714921ms |       127.0.0.1 | POST     ""/api/pull""
+"
+1740836104944,"[?2026h[?25l[1Gpulling manifest [K
+"
+1740836104944,"pulling 6340dc3229b0... 100% ▕████████████████▏ 4.9 GB                         [K
+"
+1740836104944,"pulling 369ca498f347... 100% ▕████████████████▏  387 B                         [K
+"
+1740836104944,"pulling 6e4c38e1172f... 100% ▕████████████████▏ 1.1 KB                         [K
+"
+1740836104944,"pulling f4d24e9138dd... 100% ▕████████████████▏  148 B                         [K
+"
+1740836104944,"pulling 0cb05c6e4e02... 100% ▕████████████████▏  487 B                         [K
+"
+1740836104944,"verifying sha256 digest [K
+"
+1740836104944,"writing manifest [K
+"
+1740836104944,"success [K[?25h[?2026l
+"
+1740836104945,"Waiting for model to load...
+"
+1740836107021,"time=2025-03-01T13:35:07.021Z level=INFO source=server.go:97 msg=""system memory"" total=""3.1 GiB"" free=""2.9 GiB"" free_swap=""0 B""
+"
+1740836107022,"time=2025-03-01T13:35:07.022Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.key_length default=128
+"
+1740836107022,"time=2025-03-01T13:35:07.022Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.value_length default=128
+"
+1740836107022,"time=2025-03-01T13:35:07.022Z level=WARN source=server.go:125 msg=""model request too large for system"" requested=""6.3 GiB"" available=3163557888 total=""3.1 GiB"" free=""2.9 GiB"" swap=""0 B""
+"
+1740836107022,"time=2025-03-01T13:35:07.022Z level=INFO source=sched.go:429 msg=""NewLlamaServer failed"" model=/tmp/.ollama/models/blobs/sha256-6340dc3229b0d08ea9cc49b75d4098702983e17b4c096d57afbbf2ffc813f2be error=""model requires more system memory (6.3 GiB) than is available (2.9 GiB)""
+"
+1740836107022,"[GIN] 2025/03/01 - 13:35:07 | 500 |   67.122722ms |       127.0.0.1 | POST     ""/api/generate""
+"
+1740836107023,"Raw API Response: '{""error"":""model requires more system memory (6.3 GiB) than is available (2.9 GiB)""}'
+"
+1740836107056,"Error: Failed to parse JSON response! Retrying model pull...
+"
+1740836107056,"Pulling model 'deepseek-r1:8b' again...
+"
+1740836107073,"[GIN] 2025/03/01 - 13:35:07 | 200 |      33.424µs |       127.0.0.1 | HEAD     ""/""
+"
+1740836107236,"[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[GIN] 2025/03/01 - 13:35:07 | 200 |  162.449748ms |       127.0.0.1 | POST     ""/api/pull""
+"
+1740836107236,"[?2026h[?25l[1Gpulling manifest [K
+"
+1740836107236,"pulling 6340dc3229b0... 100% ▕████████████████▏ 4.9 GB                         [K
+"
+1740836107236,"pulling 369ca498f347... 100% ▕████████████████▏  387 B                         [K
+"
+1740836107236,"pulling 6e4c38e1172f... 100% ▕████████████████▏ 1.1 KB                         [K
+"
+1740836107236,"pulling f4d24e9138dd... 100% ▕████████████████▏  148 B                         [K
+"
+1740836107236,"pulling 0cb05c6e4e02... 100% ▕████████████████▏  487 B                         [K
+"
+1740836107236,"verifying sha256 digest [K
+"
+1740836107236,"writing manifest [K
+"
+1740836107236,"success [K[?25h[?2026l
+"
+1740836107238,"Waiting for model to load...
+"
+1740836107441,"INIT_REPORT Init Duration: 300034.51 ms	Phase: invoke	Status: timeout
+"
+1740836107441,"START RequestId: 12b952cd-124a-403d-a051-e6337342234d Version: $LATEST
+"
+1740836107442,"2025-03-01T13:35:07.442Z 12b952cd-124a-403d-a051-e6337342234d Task timed out after 300.04 seconds
+
+"
+1740836107442,"END RequestId: 12b952cd-124a-403d-a051-e6337342234d
+"
+1740836107442,"REPORT RequestId: 12b952cd-124a-403d-a051-e6337342234d	Duration: 300035.97 ms	Billed Duration: 300000 ms	Memory Size: 3008 MB	Max Memory Used: 3008 MB	
+"
+1740836107746,"OLLAMA_MODELS is set to: /tmp/.ollama/models
+"
+1740836107746,"Starting Ollama server...
+"
+1740836107746,"Waiting for Ollama server to start...
+"
+1740836107769,"2025/03/01 13:35:07 routes.go:1205: INFO server config env=""map[CUDA_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_DEBUG:false OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://0.0.0.0:11434 OLLAMA_INTEL_GPU:false OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/tmp/.ollama/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NUM_PARALLEL:0 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://*] OLLAMA_SCHED_SPREAD:false ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]""
+"
+1740836107771,"time=2025-03-01T13:35:07.771Z level=INFO source=images.go:432 msg=""total blobs: 5""
+"
+1740836107771,"time=2025-03-01T13:35:07.771Z level=INFO source=images.go:439 msg=""total unused blobs removed: 0""
+"
+1740836107771,"time=2025-03-01T13:35:07.771Z level=INFO source=routes.go:1256 msg=""Listening on 0.0.0.0:11434 (version 0.5.12)""
+"
+1740836107772,"time=2025-03-01T13:35:07.772Z level=INFO source=gpu.go:217 msg=""looking for compatible GPUs""
+"
+1740836107774,"time=2025-03-01T13:35:07.774Z level=INFO source=gpu.go:377 msg=""no compatible GPUs were discovered""
+"
+1740836107774,"time=2025-03-01T13:35:07.774Z level=INFO source=types.go:130 msg=""inference compute"" id=0 library=cpu variant="""" compute="""" driver=0.0 name="""" total=""3.1 GiB"" available=""3.0 GiB""
+"
+1740836108772,"[GIN] 2025/03/01 - 13:35:08 | 200 |      606.02µs |       127.0.0.1 | GET      ""/api/tags""
+"
+1740836108773,"Ollama server is ready.
+"
+1740836108773,"Loading the 'deepseek-r1:8b' model...
+"
+1740836108853,"time=2025-03-01T13:35:08.853Z level=INFO source=server.go:97 msg=""system memory"" total=""3.1 GiB"" free=""3.0 GiB"" free_swap=""0 B""
+"
+1740836108854,"time=2025-03-01T13:35:08.854Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.key_length default=128
+"
+1740836108854,"time=2025-03-01T13:35:08.854Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.value_length default=128
+"
+1740836108854,"time=2025-03-01T13:35:08.854Z level=WARN source=server.go:125 msg=""model request too large for system"" requested=""6.3 GiB"" available=3182448640 total=""3.1 GiB"" free=""3.0 GiB"" swap=""0 B""
+"
+1740836108854,"time=2025-03-01T13:35:08.854Z level=INFO source=sched.go:429 msg=""NewLlamaServer failed"" model=/tmp/.ollama/models/blobs/sha256-6340dc3229b0d08ea9cc49b75d4098702983e17b4c096d57afbbf2ffc813f2be error=""model requires more system memory (6.3 GiB) than is available (3.0 GiB)""
+"
+1740836108855,"[GIN] 2025/03/01 - 13:35:08 | 500 |   73.757377ms |       127.0.0.1 | POST     ""/api/generate""
+"
+1740836108856,"Raw API Response: '{""error"":""model requires more system memory (6.3 GiB) than is available (3.0 GiB)""}'
+"
+1740836108890,"Error: Failed to parse JSON response! Retrying model pull...
+"
+1740836108890,"Pulling model 'deepseek-r1:8b' again...
+"
+1740836108907,"[GIN] 2025/03/01 - 13:35:08 | 200 |       40.47µs |       127.0.0.1 | HEAD     ""/""
+"
+1740836109153,"[?2026h[?25l[1Gpulling manifest ⠋ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[GIN] 2025/03/01 - 13:35:09 | 200 |  245.352013ms |       127.0.0.1 | POST     ""/api/pull""
+"
+1740836109153,"[?2026h[?25l[1Gpulling manifest [K
+"
+1740836109153,"pulling 6340dc3229b0... 100% ▕████████████████▏ 4.9 GB                         [K
+"
+1740836109153,"pulling 369ca498f347... 100% ▕████████████████▏  387 B                         [K
+"
+1740836109153,"pulling 6e4c38e1172f... 100% ▕████████████████▏ 1.1 KB                         [K
+"
+1740836109153,"pulling f4d24e9138dd... 100% ▕████████████████▏  148 B                         [K
+"
+1740836109153,"pulling 0cb05c6e4e02... 100% ▕████████████████▏  487 B                         [K
+"
+1740836109153,"verifying sha256 digest [K
+"
+1740836109153,"writing manifest [K
+"
+1740836109153,"success [K[?25h[?2026l
+"
+1740836109154,"Waiting for model to load...
+"
+1740836111231,"time=2025-03-01T13:35:11.231Z level=INFO source=server.go:97 msg=""system memory"" total=""3.1 GiB"" free=""3.0 GiB"" free_swap=""0 B""
+"
+1740836111232,"time=2025-03-01T13:35:11.232Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.key_length default=128
+"
+1740836111232,"time=2025-03-01T13:35:11.232Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.value_length default=128
+"
+1740836111232,"time=2025-03-01T13:35:11.232Z level=WARN source=server.go:125 msg=""model request too large for system"" requested=""6.3 GiB"" available=3179831296 total=""3.1 GiB"" free=""3.0 GiB"" swap=""0 B""
+"
+1740836111232,"time=2025-03-01T13:35:11.232Z level=INFO source=sched.go:429 msg=""NewLlamaServer failed"" model=/tmp/.ollama/models/blobs/sha256-6340dc3229b0d08ea9cc49b75d4098702983e17b4c096d57afbbf2ffc813f2be error=""model requires more system memory (6.3 GiB) than is available (3.0 GiB)""
+"
+1740836111232,"[GIN] 2025/03/01 - 13:35:11 | 500 |   68.833254ms |       127.0.0.1 | POST     ""/api/generate""
+"
+1740836111233,"Raw API Response: '{""error"":""model requires more system memory (6.3 GiB) than is available (3.0 GiB)""}'
+"
+1740836111268,"Error: Failed to parse JSON response! Retrying model pull...
+"
+1740836111268,"Pulling model 'deepseek-r1:8b' again...
+"
+1740836111285,"[GIN] 2025/03/01 - 13:35:11 | 200 |      32.162µs |       127.0.0.1 | HEAD     ""/""
+"
+1740836111450,"[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[GIN] 2025/03/01 - 13:35:11 | 200 |  164.315084ms |       127.0.0.1 | POST     ""/api/pull""
+"
+1740836111450,"[?2026h[?25l[1Gpulling manifest [K
+"
+1740836111450,"pulling 6340dc3229b0... 100% ▕████████████████▏ 4.9 GB                         [K
+"
+1740836111450,"pulling 369ca498f347... 100% ▕████████████████▏  387 B                         [K
+"
+1740836111450,"pulling 6e4c38e1172f... 100% ▕████████████████▏ 1.1 KB                         [K
+"
+1740836111450,"pulling f4d24e9138dd... 100% ▕████████████████▏  148 B                         [K
+"
+1740836111450,"pulling 0cb05c6e4e02... 100% ▕████████████████▏  487 B                         [K
+"
+1740836111450,"verifying sha256 digest [K
+"
+1740836111450,"writing manifest [K
+"
+1740836111450,"success [K[?25h[?2026l
+"
+1740836111452,"Waiting for model to load...
+"
+1740836113540,"time=2025-03-01T13:35:13.529Z level=INFO source=server.go:97 msg=""system memory"" total=""3.1 GiB"" free=""3.0 GiB"" free_swap=""0 B""
+"
+1740836113540,"time=2025-03-01T13:35:13.529Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.key_length default=128
+"
+1740836113540,"time=2025-03-01T13:35:13.529Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.value_length default=128
+"
+1740836113540,"time=2025-03-01T13:35:13.529Z level=WARN source=server.go:125 msg=""model request too large for system"" requested=""6.3 GiB"" available=3179905024 total=""3.1 GiB"" free=""3.0 GiB"" swap=""0 B""
+"
+1740836113540,"time=2025-03-01T13:35:13.529Z level=INFO source=sched.go:429 msg=""NewLlamaServer failed"" model=/tmp/.ollama/models/blobs/sha256-6340dc3229b0d08ea9cc49b75d4098702983e17b4c096d57afbbf2ffc813f2be error=""model requires more system memory (6.3 GiB) than is available (3.0 GiB)""
+"
+1740836113540,"[GIN] 2025/03/01 - 13:35:13 | 500 |   68.517704ms |       127.0.0.1 | POST     ""/api/generate""
+"
+1740836113540,"Raw API Response: '{""error"":""model requires more system memory (6.3 GiB) than is available (3.0 GiB)""}'
+"
+1740836113564,"Error: Failed to parse JSON response! Retrying model pull...
+"
+1740836113564,"Pulling model 'deepseek-r1:8b' again...
+"
+1740836113581,"[GIN] 2025/03/01 - 13:35:13 | 200 |      40.702µs |       127.0.0.1 | HEAD     ""/""
+"
+1740836113774,"[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[GIN] 2025/03/01 - 13:35:13 | 200 |  192.196158ms |       127.0.0.1 | POST     ""/api/pull""
+"
+1740836113774,"[?2026h[?25l[1Gpulling manifest [K
+"
+1740836113774,"pulling 6340dc3229b0... 100% ▕████████████████▏ 4.9 GB                         [K
+"
+1740836113774,"pulling 369ca498f347... 100% ▕████████████████▏  387 B                         [K
+"
+1740836113774,"pulling 6e4c38e1172f... 100% ▕████████████████▏ 1.1 KB                         [K
+"
+1740836113774,"pulling f4d24e9138dd... 100% ▕████████████████▏  148 B                         [K
+"
+1740836113774,"pulling 0cb05c6e4e02... 100% ▕████████████████▏  487 B                         [K
+"
+1740836113774,"verifying sha256 digest [K
+"
+1740836113774,"writing manifest [K
+"
+1740836113774,"success [K[?25h[?2026l
+"
+1740836113776,"Waiting for model to load...
+"
+1740836115853,"time=2025-03-01T13:35:15.853Z level=INFO source=server.go:97 msg=""system memory"" total=""3.1 GiB"" free=""3.0 GiB"" free_swap=""0 B""
+"
+1740836115853,"time=2025-03-01T13:35:15.853Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.key_length default=128
+"
+1740836115853,"time=2025-03-01T13:35:15.853Z level=WARN source=ggml.go:132 msg=""key not found"" key=llama.attention.value_length default=128
+"
+1740836115853,"time=2025-03-01T13:35:15.853Z level=WARN source=server.go:125 msg=""model request too large for system"" requested=""6.3 GiB"" available=3180163072 total=""3.1 GiB"" free=""3.0 GiB"" swap=""0 B""
+"
+1740836115853,"time=2025-03-01T13:35:15.853Z level=INFO source=sched.go:429 msg=""NewLlamaServer failed"" model=/tmp/.ollama/models/blobs/sha256-6340dc3229b0d08ea9cc49b75d4098702983e17b4c096d57afbbf2ffc813f2be error=""model requires more system memory (6.3 GiB) than is available (3.0 GiB)""
+"
+1740836115853,"[GIN] 2025/03/01 - 13:35:15 | 500 |   68.584399ms |       127.0.0.1 | POST     ""/api/generate""
+"
+1740836115855,"Raw API Response: '{""error"":""model requires more system memory (6.3 GiB) than is available (3.0 GiB)""}'
+"
+1740836115888,"Error: Failed to parse JSON response! Retrying model pull...
+"
+1740836115888,"Pulling model 'deepseek-r1:8b' again...
+"
+1740836115905,"[GIN] 2025/03/01 - 13:35:15 | 200 |      32.793µs |       127.0.0.1 | HEAD     ""/""
+"
+1740836116074,"[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[GIN] 2025/03/01 - 13:35:16 | 200 |  169.113096ms |       127.0.0.1 | POST     ""/api/pull""
+"
+1740836116074,"[?2026h[?25l[1Gpulling manifest [K
+"
+1740836116074,"pulling 6340dc3229b0... 100% ▕████████████████▏ 4.9 GB                         [K
+"
+1740836116074,"pulling 369ca498f347... 100% ▕████████████████▏  387 B                         [K
+"
+1740836116074,"pulling 6e4c38e1172f... 100% ▕████████████████▏ 1.1 KB                         [K
+"
+1740836116074,"pulling f4d24e9138dd... 100% ▕████████████████▏  148 B                         [K
+"
+1740836116074,"pulling 0cb05c6e4e02... 100% ▕████████████████▏  487 B                         [K
+"
+1740836116074,"verifying sha256 digest [K
+"
+1740836116074,"writing manifest [K
+"
+1740836116074,"success [K[?25h[?2026l
+"
+1740836116076,"Waiting for model to load...
+"
+1740836117745,"INIT_REPORT Init Duration: 10000.12 ms	Phase: init	Status: timeout
+"

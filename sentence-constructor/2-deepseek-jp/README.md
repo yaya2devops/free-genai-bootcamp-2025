@@ -11,6 +11,9 @@
 - [Access](japanese-teaching-tests.md)
  Teaching Tests.
 
+
+## [Gloryah Deploy Olama on AWS Lambda](gloryah/gloryah.md)
+
 DeepSeek represents a significant advancement in open-source AI development, particularly notable for its performance-to-parameter ratio and accessibility. This guide outlines implementation strategies, focusing on language learning applications.
 
 
