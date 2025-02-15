@@ -2,6 +2,22 @@
 
 ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/yaya2devops/free-genai-bootcamp-2025)
 
+
+<details>
+
+<summary>
+
+Here is our [full example](https://github.com/yaya2devops/free-genai-bootcamp-2025/pull/16).
+
+</summary>
+
+
+Pull Request 
+
+<img src="-15-Senior-Applied-Rabbit-PR-Reviewer-🐇-by-yaya2devops-·-Pull-Request-16-·-yaya2devops-free-genai-bootcamp-2025.png">
+
+</details>
+
 ## Account Creation
 1. Navigate to Code Rabbit's website (https://coderabbit.ai)
 2. Click "Get Started" in either the top right corner or the center of the page
@@ -176,9 +192,6 @@ An issue for this already exists [here.](https://github.com/yaya2devops/free-gen
 - Adapts to your coding patterns and standards
 
 
-> So and this is where the report feature comes into play late.
-
-You can set it up to get expanded insights based on what you pulling on requests.
 
 ### Integrations
 - Jira: Connect with issue tracking
@@ -242,5 +255,11 @@ You can set it up to get expanded insights based on what you pulling on requests
 - Reports are especially useful for managers and CTOs to track developer activity
 - The free tier provides ongoing PR summarization even after your trial ends
 
+
+> So and this is where the report feature comes into play late.
+
+You can set it up to get expanded insights based on what you pulling on requests.
+
+![alt text](image-6.png)
 
 There is also configuration under the repo assigned so you can customize the output even more.
